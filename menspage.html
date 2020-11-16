@@ -1,0 +1,142 @@
+<html>
+<head>
+<link rel="icon" href="E:\HTML\GOLDPLATE.png"  height="50" width="50"> 
+<title>Friends&Co-Men's Corner</title>
+<style>
+
+body {
+background-image: url("gray.jpg");
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+background-attachment:fixed;
+}
+
+ul {
+  list-style-type: none;
+  margin:0;
+  margin-left:-10px;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(0,0,0,0.3);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index:1;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  color: #AFEEEE;
+  background-color:#111;
+}
+
+.active {
+  background-color: #FF4500;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  
+  padding: 5px;
+  transition: transform .2s;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column:hover{ outline:  height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+	color:#FF4500;
+	transform: scale(0.9);
+	z-index:-1;
+	border:1px solid gray;
+}
+#owntag {background-color:rgba(0,0,0);}
+
+</style>
+</head>
+<body>
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a class="active" href="menspage.html">Men's Jewellery</a></li>
+  <li><a href="womenspage.html">Women's Jewellery</a></li>
+  <li><a href="exclusiveoffers.html">Exclusive Offers</a></li>
+  <li><a href="about.html">About Us</a></li>
+  <li style="float:right"><a href="form.html">Sign Up</a></li>
+  <li style="float:right"><a href="signin.html">Login</a></li>
+  <li><a href="follow.html">Follow Us</a></li>
+  
+</ul>
+<br><br>
+
+<div class="row">
+  <div class="column">
+    <a href="dl.html"><img src="im1.png" alt="Jewellery" width="100%" height="50%"></a>
+	<center><pre>Price:<strike>Rs 5000</strike>   Rs 3500</pre><center>
+  </div>
+  <div class="column">
+    <a href="men's leather bracelet.html"><img src="im2.png" alt="Jewellery" width="100%" height="50%"></a>
+	<center><pre>Price:<strike>Rs 6000</strike>   Rs 4200</pre><center>
+  </div>
+  <div class="column">
+    <a href="chain.html"><img src="im3.png" alt="Jewellery" width="100%" height="50%"></a>
+	<center><pre>Price:<strike>Rs 4000</strike>   Rs 2800</pre><center>
+  </div>
+</div>
+
+<br><br>
+
+<div class="row">
+  <div class="column">
+    <a href="dg.html"><img src="im4.png" alt="Jewellery" width="100%" height="50%"></a>
+	<center><pre>Price:<strike>Rs 3000</strike>   Rs 2100</pre><center>
+  </div>
+  <div class="column">
+    <a href="men's black.html"><img src="im5.png" alt="Jewellery" width="100%" height="50%"></a>
+	<center><pre>Price:<strike>Rs 7000</strike>   Rs 4900</pre><center>
+  </div>
+  <div class="column">
+    <a href="gold.html"><img src="im6.png" alt="Jewellery" width="100%" height="50%"></a>
+	<center><pre>Price:<strike>Rs 4000</strike>   Rs 2800</pre><center>
+  </div>
+</div>
+
+<br><br>
+
+<div class="row">
+  <div class="column">
+    <a href="love.html"><img src="love.png" alt="Jewellery" width="100%" height="50%"></a>
+	<center><pre>Price:<strike>Rs 3500</strike>   Rs 2450</pre><center>
+  </div>
+  <div class="column">
+    <a href="ring.html"><img src="im8.png" alt="Jewellery" width="100%" height="50%"></a>
+	<center><pre>Price:<strike>Rs 4000</strike>   Rs 2800</pre><center>
+  </div>
+  <div class="column">
+    <a href="sego.html"><img src="im9.png" alt="Jewellery" width="100%" height="50%"></a>
+	<center><pre>Price:<strike>Rs 5000</strike>   Rs 3500</pre><center>
+  </div>
+</div>
+</body>
+</html>

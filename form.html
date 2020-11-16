@@ -1,0 +1,137 @@
+<HTML>
+<HEAD>
+<link rel="icon" href="E:\HTML\GOLDPLATE.png"  height="50" width="50"> 
+<title>FRIEND & COMPANY - ONLINE SHOPPING OF JEWELLERIES IN INDIA</title>
+<STYLE>
+h1 {border:2px ridge;margin-right:400px;text-indent: 400px;line-height: 0.8;border-radius:8px;
+border-color:red;font-color:gray;}
+FORM {FONT-SIZE:20PX;margin-right:400px;font-family:cursive;}
+
+Body {background-image:URL("gray.jpg");
+height:100%
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+background-attachment:fixed;}
+ul {
+  list-style-type: none;
+  margin:0;
+  margin-left:-10px;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(0,0,0,0.3);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  color: #AFEEEE;
+  background-color:#111;
+}
+.active {
+  background-color: #FF4500;
+}
+
+* {
+  box-sizing: border-box;
+}
+#a {width:200px;height:30px;background:white;-webkit-transition:width 1s;transition:width 1s;}
+#a:hover{width:300px;}
+</STYLE>
+</HEAD>
+<BODY>
+<ul>
+   <li><a href="index.html">Home</a></li>
+  <li><a  href="menspage.html">Men's Jewellery</a></li>
+  <li><a href="womenspage.html">Women's Jewellery</a></li>
+  <li><a href="Exclusiveoffers.html">Exclusive Offers</a></li>
+  <li><a  href="about.html">About Us</a></li>
+  <li class="active"style="float:right"><a  href="form.html">Sign Up</a></li>
+  <li style="float:right"><a href="signin.html">Login</a></li>
+  <li><a href="follow.html">Follow Us</a></li>
+  
+</ul>
+
+<br><br>
+
+<H1 >SIGN-UP: </H1><BR>
+<IMG SRC="signup2.PNG" width="400" height="400" align="right">
+
+<form>
+
+<fieldset >
+<LEGEND>PERSONAL DETAILS</LEGEND>
+FIRST NAME: <INPUT id="a"TYPE="TEXT" NAME="FNAME" PLACEHOLDER="FIRST NAME"><BR><BR>
+
+LAST NAME: <INPUT id="a"TYPE="TEXT" NAME="LNAME" PLACEHOLDER="LAST NAME"><BR><BR>
+
+SEX: <INPUT TYPE="RADIO" NAME="SEX" VALUE="MALE">MALE <INPUT TYPE="RADIO" NAME="SEX" VALUE="FEMALE" > FEMALE
+</FIELDSET></div>
+<BR><BR>
+<fieldset>
+<legeND>LOGIN INFORMANTION</LEGEND>
+ ENTER E-MAIL ADDRESS: <INPUT id="a"TYPE="TEXT" NAME="EMAIL" PLACEHOLDER="ENTER YOUR E-MAIL"><BR><BR>
+CONFIRM E-MAIL ADDRESS: <INPUT id="a"TYPE="TEXT" NAME="EMAIL" PLACEHOLDER="ENTER YOUR E-MAIL"><BR><BR>
+USERNAME: <INPUT id="a"TYPE="USERNAME" NAME="USRNM" PLACEHOLDER="USERNAME"><BR><bR>
+PASSWORD: <INPUT id="a"TYPE="PASSWORD" NAME="PASS" PLACEHOLDER="Enter your password"><BR><bR>
+CONFIRM PASSWORD: <INPUT id="a"TYPE="PASSWORD" NAME="PASS" PLACEHOLDER="PASSWORD"><BR><bR>
+</FIELDSET></div>
+<BR><BR>
+
+<FIELDSET>
+<LEGEND>OTHER INFORMATION</LEGEND>
+CITY:   <SELECT NAME="CITY">
+<OPTION NAME="SELECT">-SELECT</OPTION>
+<option NAME="AHBD">Ahmedabad</option> 
+<option NAME="BGNL">Bengaluru/Bangalore</option>
+<option NAME="CHND">Chandigarh</option>
+<option NAME="CHEN">Chennai</option>
+<option NAME="DELH">Delhi</option>
+<option NAME="GURG">Gurgaon</option>
+<option NAME="HYDE">Hyderabad/Secunderabad</option>
+<option NAME="KOLK">Kolkatta</option>
+<option NAME="MUMB">Mumbai</option>
+<option NAME="NOID">Noida</option>
+<option NAME="PUNE">Pune</option>
+</SELECT><BR><BR>
+
+
+ADDRESS: <INPUT id="a"TYPE="TEXT" NAME="ADDRESS" PLACEHOLDER="ADDRESS"><BR><bR>
+LANDMARK: <INPUT id="a"TYPE="TEXT" NAME="LNDMRK" PLACEHOLDER="LANDMARK"><BR><bR>
+CONTACT NO. : <INPUT id="a"TYPE="Tel" NAME="CNTCT" PLACEHOLDER="CONTACT" maxlength="10"><BR><bR>       
+
+CHOOSE SECURITY QUESTION: <SELECT NAME="SECURITY QUESTION">
+<OPTION NAME="SELECT">-SELECT</OPTION>
+<OPTION VALUE="SPRT TEAM">WHAT IS YOUR FAVOURITE SPORTS TEAM?</OPTION>
+<OPTION VALUE="PET">WHAT IS YOUR PET NAME?</OPTION>
+<OPTION VALUE="TEACHER">WHAT WAS YOUR FAVOURITE TEACHER NAME?</OPTION>
+<OPTION VALUE="HERO">WHO WAS YOUR CHILDHOOD HERO?</OPTION>
+<OPTION VALUE="STREET">WHAT STREET DID YOU GROW UP ON?</OPTION>
+</SELECT><BR><BR>
+ANSWER : <INPUT TYPE="TEXT" NAME="ANS" PLACEHOLDER="ANSWER">
+</FIELDSET></div>
+
+
+</form><BR><BR>
+<form>
+<h2>Feeback Response :</h1><br>
+<textarea style="message" cols="60" rows="30">
+</textarea>
+</form>
+
+<FORM>
+<BUTTON TYPE="BUTTON" onclick="alert('YOUR FORM HAS BEEN SUBMITTED SUCCESSFULLY!')">SUBMIT</BUTTON>
+</FORM>

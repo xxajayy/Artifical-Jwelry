@@ -1,0 +1,40 @@
+<html>
+<head>
+<LINK REL="ICON" HREF="E:\HTML\mens\fnc.PNG" height="50" width="50">
+<title>FRIEND & COMPANY - ONLINE SHOPPING OF JEWELLERIES IN INDIA</title>
+<style>
+<style>
+Body {background-image:url("gray.jpg");
+height:100%
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+background-attachment:fixed;
+
+}
+h2 {margin-left:550px;margin-top:-250px;}
+h4{margin-left:550px;}
+h3{margin-left:600px;margin-top:-40px;color:red;}
+#owntag{margin-left:550px;color:green;}
+select{margin-left:550px;}
+</style>
+<body>
+<A HREF=""> <IMG SRC="E:\HTML\fnc.PNG" width="200" height="100"></A><br><br><br>
+<hr>
+<IMG SRC="E:\HTML\MENS\png\bracelet.png" WIDTH="500" HEIGHT="300" TITLE="PRICE = 1599/-">
+<h2>Men's Steel Bracelet (Model 2019) </h2>
+<h4>M.R.P : <strike>1999/-</strike></h4>
+<h4>Price :</h4> <h3>1599/-</h3>
+<h4>Pay On Delivery (Available)</h4><br>
+<h3 id="owntag">In Stock</h3>
+   <h4>Quantity :</h4> :<select name="quantity">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+</select><br>
+
+<a href="file:///E:/HTML/order%20place.html"><img src="E:\html\buy.png" height="50" hspace="540px"></a>
+<hr>
